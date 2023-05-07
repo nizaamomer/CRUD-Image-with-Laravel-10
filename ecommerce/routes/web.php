@@ -22,7 +22,7 @@ Route::group(['controller' => ProductController::class], function () {
 
 
 
-// if you don't understand use this 
+// if you don't understand do this 
 
 // Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 // Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');

@@ -1,6 +1,7 @@
 
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<form action="{{ route('products.update', $product->id) }}" method="post" enctype="multipart/form-data">
+<form action="{{ route('products.update', $product->id) }}" 
+    method="post" enctype="multipart/form-data">
     <h1>Edit Product</h1>
     @csrf
     <input type="hidden" name="id" value="{{ $product->id }}">

@@ -4,6 +4,11 @@
     <thead>
         <h1>Products</h1>
         <tr>
+            <h3>
+                <a href="{{ route('products.create') }}">Craete Product</a>
+            </h3>
+        </tr>
+        <tr>
             <th>No.</th>
             <th>Name</th>
             <th>Price</th>
@@ -28,10 +33,6 @@
                 </td>
             </tr>
         @endforeach
-        <tr>
-            <h3>
-                <a href="{{ route('products.create') }}">Craete Product</a>
-            </h3>
-        </tr>
+    
     </tbody>
 </table>

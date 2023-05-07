@@ -12,7 +12,7 @@
     <br>
     <label for="image">Image</label>
     <input type="file" name="image">
-
+    
     <br>
     <button type="submit">Create Product</button>
 </form>
