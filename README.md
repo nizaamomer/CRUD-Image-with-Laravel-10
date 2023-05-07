@@ -1,5 +1,5 @@
 # CRUD with Image Laravel-10
-
+- php artisan serve
 - php artisan make:model Product -mcr 
 
 
